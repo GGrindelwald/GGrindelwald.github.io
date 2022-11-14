@@ -1,7 +1,5 @@
 import {html, body} from './HTMLelement.js';
 
-html.setStyle('background','#FFF');
-
 function setDimension() {
     html.setStyle('width',(0.98*window.innerWidth)+'px');
     html.setStyle('height',(0.98*window.innerHeight)+'px');
