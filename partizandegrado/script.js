@@ -16,7 +16,7 @@ const HOME = new Page("Partizan Degrado - Pagina Home", true, ()=>{
  let l2 = list.append('li');
  l1.setAttribute("href", "index.html");
  l1.init("Pagina Home");
- l2.href = "login.html";
+ l2.setAttribute("href", "login.html");
  l2.init("Area Membri");
 });
 
