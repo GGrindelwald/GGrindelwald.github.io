@@ -1,0 +1,56 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #FCFFFB;
+	font-family: 'Open sans', sans-serif;
+	color: #336333;
+}
+
+h1 {
+	margin: 0;
+	margin-bottom: 5%;
+	font-size: 150%;
+}
+
+div {
+	padding: 6.6%;
+	background: #DDEADF;
+	border: 4px solid #AABAAF;
+	width: 60%;
+	margin: 5% auto;
+}
+
+input {
+	font-size: 87.5%;
+	border: 2px solid #CCDCCF;
+	background-color: #F8FFF7;
+	padding: 1.2%;
+	display: block;
+	margin-bottom: 2.2%;
+	width: 96%;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #6A8960;
+	opacity: 0.9;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: red;
+}
+
+::-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: red;
+}
+
+button {
+	font-size: 95%;
+	font-family: inherit;
+	background-color: #77B079;
+	color: #F0FFF2;
+	padding: 1.2%;
+	cursor: pointer;
+	border: none;
+	margin-top: 10px;
+	text-transform: uppercase;
+}
