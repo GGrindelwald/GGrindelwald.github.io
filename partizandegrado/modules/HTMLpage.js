@@ -14,7 +14,7 @@ class HTMLpage {
    body.clear();
   }
   this.#build();
-  title.init(this.#title);
+  document.title = (this.#title);
  }
 }
 
