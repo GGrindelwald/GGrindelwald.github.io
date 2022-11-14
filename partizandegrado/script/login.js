@@ -66,7 +66,7 @@ function restart() {
 }
 
 function successfulLogin() {
- window.location.href = "areaMembri.htm";
+ window.location.href = "areaMembri.html";
 }
 
 async function displayAlert() {
