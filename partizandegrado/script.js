@@ -1,6 +1,6 @@
-import './modules/default.js';
-import {html, head, title, body} from './modules/HTMLelement.js';
-import Page from './modules/HTMLpage.js';
+import "./modules/default.js";
+import {html, head, title, body} from "./modules/HTMLelement.js";
+import Page from "./modules/HTMLpage.js";
 
 const HOME = new Page("Partizan Degrado - Pagina Home", true, ()=>{
  let link1 = head.append("link");
