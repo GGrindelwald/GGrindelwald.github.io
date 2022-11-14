@@ -13,7 +13,7 @@ class HTMLpage {
   this.#build = contents;
  }
  build() {
-  if (reset) {
+  if (this.#reset) {
    body.clear();
   }
   this.#build();
