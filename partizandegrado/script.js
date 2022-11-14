@@ -5,8 +5,8 @@ import Page from './modules/HTMLpage.js';
 const HOME = new Page("Partizan Degrado - Pagina Home", true, ()=>{
  let link1 = head.append("link");
  let link2 = head.append("link");
-// link1.setAttribute("rel", "stylesheet");
-// link1.setAttribute("rel", "https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+ link1.setAttribute("rel", "stylesheet");
+ link1.setAttribute("rel", "https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
  link2.setAttribute("rel", "stylesheet");
  link2.setAttribute("href", "./style/menu.css");
  let menu = body.append('div');
