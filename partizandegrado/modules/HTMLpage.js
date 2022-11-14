@@ -4,7 +4,7 @@ class HTMLpage {
  #title;
  #build;
  #reset;
- constructor(title, reset, ...contents) {
+ constructor(title, reset, contents) {
   class Element extends HTMLelement {
    
   }
