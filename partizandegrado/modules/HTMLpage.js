@@ -10,7 +10,7 @@ class HTMLpage {
   }
   this.#title = title;
   this.#reset = !!reset;
-  this.#build = contents;
+  this.#build = contents();
  }
  build() {
   if (this.#reset) {
