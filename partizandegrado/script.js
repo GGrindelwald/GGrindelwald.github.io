@@ -21,3 +21,4 @@ const HOME = new Page("Partizan Degrado - Pagina Home", true, ()=>{
 });
 
 HOME.build();
+console.log("ok")
