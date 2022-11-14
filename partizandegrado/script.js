@@ -10,6 +10,7 @@ const HOME = new Page("Partizan Degrado - Pagina Home", true, ()=>{
  link2.rel = "stylesheet"
  link2.href = "./style/menu.css"
  let menu = body.append('div');
+ menu.id = "menu";
  let list = menu.append('ul');
  let l1 = list.append('li');
  let l2 = list.append('li');
