@@ -1,7 +1,6 @@
 import {html, body} from './HTMLelement.js';
 
 html.setStyle('background','#FFF');
-body.setStyle('background-color','inherit');
 
 function setDimension() {
     html.setStyle('width',(0.98*window.innerWidth)+'px');
