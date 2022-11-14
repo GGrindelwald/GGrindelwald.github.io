@@ -7,8 +7,8 @@ const HOME = new Page("Partizan Degrado - Pagina Home", true, ()=>{
  let link2 = head.append("link");
  link1.setAttribute("rel", "stylesheet");
  link1.setAttribute("rel", "https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
- link2.rel = "stylesheet"
- link2.href = "./style/menu.css"
+ link2.setAttribute("rel", "stylesheet");
+ link2.setAttribute("href", "./style/menu.css");
  let menu = body.append('div');
  menu.id = "menu";
  let list = menu.append('ul');
