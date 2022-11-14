@@ -5,9 +5,6 @@ class HTMLpage {
  #build;
  #reset;
  constructor(pagetitle, reset, contents) {
-  class Element extends HTMLelement {
-   
-  }
   this.#title = pagetitle;
   this.#reset = !!reset;
   this.#build = contents;
