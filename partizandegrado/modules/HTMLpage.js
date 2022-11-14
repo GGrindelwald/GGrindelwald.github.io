@@ -4,8 +4,8 @@ class HTMLpage {
  #title;
  #build;
  #reset;
- constructor(pagetitle, reset, contents) {
-  this.#title = pagetitle;
+ constructor(title, reset, contents) {
+  this.#title = title;
   this.#reset = !!reset;
   this.#build = contents;
  }
