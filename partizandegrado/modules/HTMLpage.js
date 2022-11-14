@@ -14,7 +14,7 @@ class HTMLpage {
    body.clear();
   }
   this.#build();
-  document.title = (this.#title);
+  document.title = this.#title;
  }
 }
 
