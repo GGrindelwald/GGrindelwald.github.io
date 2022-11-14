@@ -11,13 +11,15 @@ const HOME = new Page("Partizan Degrado - Pagina Home", true, ()=>{
  link2.setAttribute("href", "./style/menu.css");
  let menu = body.append('div');
  menu.id = "menu";
- let list = menu.append('ul');
- let l1 = list.append('li');
- let l2 = list.append('li');
- l1.setAttribute("href", "./index.html");
- l1.init("Pagina Home");
- l2.setAttribute("href", "./login.html");
- l2.init("Area Membri");
+ let list = menu.append("ul");
+ let l1 = list.append("li");
+ let l2 = list.append("li");
+ let a1 = l1.append("a");
+ let a2 = l2.append("a");
+ a1.setAttribute("href", "./index.html");
+ a1.init("Pagina Home");
+ a2.setAttribute("href", "./login.html");
+ a2.init("Area Membri");
 });
 
 HOME.build();
