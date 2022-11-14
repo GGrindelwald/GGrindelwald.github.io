@@ -17,6 +17,7 @@ const HOME = new Page("Partizan Degrado - Pagina Home", true,()=>{
  l1.innerHTML = "Pagina Home"
  l2.href = "login.html"
  l2.innerHTML = "Area Membri"
+ console.log("done")
 });
 
 HOME.build();
